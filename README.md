@@ -17,4 +17,4 @@ If we use jpa repository as an example then we have to search for jparepository 
 ![autoconfig](https://user-images.githubusercontent.com/54987617/203246144-98bfbc08-dbe3-476c-81fd-2137ad257277.jpg)
 
 
-In the picture we clearly see that there is a condition on datasource.class that means jpa repository will be enabled only when datasource bean is present in the class path. And also when jparepository related class present then whole functionality will be available.
+In the picture we clearly see that there is a condition on datasource.class that means jpa repository will be enabled only when datasource bean is present in the class path. And also when jparepository related class present and other condition is satisfied then it will enable the jpa repository component.
