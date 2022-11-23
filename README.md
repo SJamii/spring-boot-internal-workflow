@@ -18,3 +18,7 @@ If we use jpa repository as an example then we have to search for jparepository 
 
 
 In the picture we clearly see that there is a condition on datasource.class that means jpa repository will be enabled only when datasource bean is available in the class path. And also when jparepository related class present and other condition is satisfied then it will enable the jpa repository component.
+Whatever we add in pox.xml, all the component related to those jar will  be available in the spring.factories file.
+Which component will be enabled or disabled are maintained by some conditions. These condition will be found in following pictures.
+
+![springBoot2](https://user-images.githubusercontent.com/54987617/203488915-230ebed1-09a2-49d6-a861-742d55ad8002.png)
